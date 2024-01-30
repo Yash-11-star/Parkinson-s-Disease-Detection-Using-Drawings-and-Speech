@@ -1,7 +1,11 @@
 import tensorflow as tf
+import wandb
+from wandb.keras import WandbCallback
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras import layers, models
+
+wandb.init(project="Parkinson's Detection for Spiral")
 
 # Define data paths
 data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/drawings/"
@@ -48,10 +52,16 @@ model.add(layers.Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Train the Model
-model.fit(train_data_generator, epochs=15, validation_data=test_data_generator)
+model.fit(
+    train_data_generator,
+    epochs=15,
+    validation_data=test_data_generator,
+    callbacks=[WandbCallback()]
+)
 
 # Evaluate the Model
 accuracy = model.evaluate(test_data_generator)[1]
+wandb.log({'Test Accuracy': accuracy})
 print(f"Accuracy: {accuracy}")
 
 model.save('spiral_model', save_format='tf')
