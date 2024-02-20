@@ -3,7 +3,6 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-
 # Path to the new image
 new_Spiral = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/P_Spiral.webp"
 new_Wave = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/H_wave.png"
