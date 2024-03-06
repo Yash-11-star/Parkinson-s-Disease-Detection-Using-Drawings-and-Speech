@@ -5,21 +5,27 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectFromModel
+import warnings
+warnings.filterwarnings('ignore')
 
 # Load the saved model
 model_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_model.joblib"
 ensemble_model = joblib.load(model_filename)
 
 # Load the feature selector
-selector_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/selector.joblib"
+selector_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_selector.joblib"
 selector = joblib.load(selector_filename)
+
+# Load the scaler
+scaler_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_scaler.joblib"
+scaler = joblib.load(scaler_filename)
 
 # Load the training data
 data_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/AudioData.csv"
 data = pd.read_csv(data_filename)
 
 # Split the data into features and labels
-X = data.iloc[:, :-1]
+X_train = data.iloc[:, :-1]
 y_train = data.iloc[:, -1]
 
 # Function to extract audio features using librosa
@@ -31,11 +37,10 @@ def extract_features(file_path):
     features = np.concatenate([mfccs.mean(axis=1), chroma.mean(axis=1), mel.mean(axis=1)])
     return features
 
-# Function to scale and select features
-def preprocess_features(features, selector):
+# Function to preprocess features
+def preprocess_features(features, scaler, selector):
     # Scale features
-    scaler = MinMaxScaler()
-    features_scaled = scaler.fit_transform(features.reshape(1, -1))
+    features_scaled = scaler.transform(features.reshape(1, -1))
 
     # Select features using the loaded selector
     selected_features = selector.transform(features_scaled)
@@ -43,41 +48,19 @@ def preprocess_features(features, selector):
     return selected_features
 
 # Function to predict using the ensemble model
-def predict_with_feedback(model, features, selector, y_train):
+def predict(model, features, scaler, selector):
     # Preprocess features
-    selected_features = preprocess_features(features, selector)
-
-    # Print unique classes in y before fitting
-    print("Unique classes in y:", np.unique(y_train))
+    selected_features = preprocess_features(features, scaler, selector)
 
     # Predict using the provided model
     raw_prediction = model.predict(selected_features)[0]
-    
-    # Convert raw prediction to a more human-readable format
     prediction = "Parkinson's" if raw_prediction == 1 else "Healthy"
 
-    # Get user feedback (1 for correct, 0 for incorrect)
-    feedback = int(input(f"Is the prediction ({prediction}) correct? Enter 1 for correct, 0 for incorrect: "))
+    return prediction
 
-    # If feedback is provided, update the model
-    if feedback in [0, 1]:
-        features_with_label = np.concatenate([selected_features.flatten(), [feedback]])
-
-        # Check if there are still at least two unique classes in y_train after feedback
-        unique_classes = np.unique(features_with_label[-1])
-        if len(unique_classes) >= 2:
-            model.fit(features_with_label[:-1].reshape(1, -1), [feedback])
-        else:
-            print("Not enough unique classes to update the model. Retrain the model with a larger dataset.")
-
-
-# Example of using the saved model for prediction and feedback
-# new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy.wav"
+# Example of using the saved model for prediction
 new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Parkinsons.wav"
+# new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy.wav"
 new_data = extract_features(new_data_path)
-predict_with_feedback(ensemble_model, new_data, selector, y_train)
-
-# To load the model for future predictions
-loaded_model = joblib.load(model_filename)
-prediction_on_loaded_model = loaded_model.predict(new_data.reshape(1, -1))[0]
-print(f"Prediction using loaded model: {prediction_on_loaded_model}")
+prediction = predict(ensemble_model, new_data, scaler, selector)
+print(f"Prediction: {prediction}")

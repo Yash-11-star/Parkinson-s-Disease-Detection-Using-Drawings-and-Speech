@@ -135,4 +135,6 @@ print("Average F1 Score:", np.mean(f1_score_ensemble))
 print("Ensemble Model Accuracy:", accuracy_score(y_test, y_pred_ensemble))
 
 joblib.dump(ensemble_model, "Audio_model.joblib")
-joblib.dump(selector, "selector.joblib")
+joblib.dump(scaler, "Audio_scaler.joblib")
+joblib.dump(selector, "Audio_selector.joblib")
+

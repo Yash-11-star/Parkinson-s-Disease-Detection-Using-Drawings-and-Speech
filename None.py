@@ -21,5 +21,5 @@ prediction = predict_parkinsons(audio_file_path, loaded_model)
 if prediction == 1:
     print("The person may have Parkinson's disease.")
 else:
-    print("The pe rson is likely healthy.")
+    print("The person is likely healthy.")
 
