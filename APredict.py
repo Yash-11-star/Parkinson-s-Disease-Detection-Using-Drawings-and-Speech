@@ -9,15 +9,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the saved model
-model_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_model.joblib"
+model_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_model_gb.joblib"
 ensemble_model = joblib.load(model_filename)
 
 # Load the feature selector
-selector_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_selector.joblib"
+selector_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_selector_gb.joblib"
 selector = joblib.load(selector_filename)
 
 # Load the scaler
-scaler_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_scaler.joblib"
+scaler_filename = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Audio_scaler_gb.joblib"
 scaler = joblib.load(scaler_filename)
 
 # Load the training data

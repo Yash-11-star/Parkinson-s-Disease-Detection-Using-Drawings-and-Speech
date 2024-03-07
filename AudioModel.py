@@ -3,13 +3,15 @@ import os
 import librosa
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, VotingClassifier
+from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectFromModel
+from imblearn.over_sampling import RandomOverSampler
+from imblearn.under_sampling import RandomUnderSampler
 
 # Function to extract audio features using librosa
 def extract_features(file_path):
@@ -62,8 +64,17 @@ data = pd.read_csv("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkins
 X = data.iloc[:, :-1]
 y = data.iloc[:, -1]
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Data Augmentation
+# No additional data augmentation is needed as it's already applied during dataset creation.
+
+# Balancing the Dataset
+oversampler = RandomOverSampler(random_state=42)
+undersampler = RandomUnderSampler(random_state=42)
+X_resampled, y_resampled = oversampler.fit_resample(X, y)
+X_resampled, y_resampled = undersampler.fit_resample(X_resampled, y_resampled)
+
+# Split the resampled data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.2, random_state=42)
 
 # Feature Scaling
 scaler = MinMaxScaler()
@@ -71,31 +82,18 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
 # Feature Selection
-selector = SelectFromModel(RandomForestClassifier(random_state=42), threshold=0.01)
+selector = SelectFromModel(GradientBoostingClassifier(random_state=42), threshold=0.01)
 selector.fit(X_train_scaled, y_train)
 
 X_train_selected = selector.transform(X_train_scaled)
 X_test_selected = selector.transform(X_test_scaled)
-
-# Hyperparameter Tuning for RandomForest
-param_grid_rf = {
-    'n_estimators': [50, 100, 200],
-    'max_depth': [None, 10, 20],
-    # Add more parameters to tune
-}
-
-grid_search_rf = GridSearchCV(RandomForestClassifier(random_state=42), param_grid_rf, cv=5, scoring='accuracy')
-grid_search_rf.fit(X_train_selected, y_train)
-
-best_params_rf = grid_search_rf.best_params_
-model_rf = grid_search_rf.best_estimator_
 
 # Hyperparameter Tuning for GradientBoosting
 param_grid_gb = {
     'n_estimators': [50, 100, 200],
     'learning_rate': [0.01, 0.1, 0.2],
     'max_depth': [3, 5, 7],
-    # Add more parameters to tune
+    
 }
 
 grid_search_gb = GridSearchCV(GradientBoostingClassifier(random_state=42), param_grid_gb, cv=5, scoring='accuracy')
@@ -104,37 +102,24 @@ grid_search_gb.fit(X_train_selected, y_train)
 best_params_gb = grid_search_gb.best_params_
 model_gb = grid_search_gb.best_estimator_
 
-# Support Vector Machine (SVM)
-model_svm = SVC(probability=True, random_state=42)
-model_svm.fit(X_train_selected, y_train)
-
-# Neural Network (Multi-layer Perceptron) with increased complexity and iterations
-model_nn = MLPClassifier(hidden_layer_sizes=(100, 50, 20), max_iter=1000, random_state=42)
-model_nn.fit(X_train_selected, y_train)
-
-# Ensemble using VotingClassifier
-ensemble_model = VotingClassifier(estimators=[('rf', model_rf), ('gb', model_gb), ('svm', model_svm), ('nn', model_nn)], voting='soft')
-ensemble_model.fit(X_train_selected, y_train)
-
-# Evaluate the ensemble model
-y_pred_ensemble = ensemble_model.predict(X_test_selected)
+# Evaluate the Gradient Boosting model
+y_pred_gb = model_gb.predict(X_test_selected)
 
 # Calculate confusion matrix, recall, and F1 score
-conf_matrix_ensemble = confusion_matrix(y_test, y_pred_ensemble)
-recall_ensemble = np.diag(conf_matrix_ensemble) / np.sum(conf_matrix_ensemble, axis=1)
-f1_score_ensemble = 2 * (recall_ensemble * np.mean(recall_ensemble)) / (recall_ensemble + np.mean(recall_ensemble))
+conf_matrix_gb = confusion_matrix(y_test, y_pred_gb)
+recall_gb = np.diag(conf_matrix_gb) / np.sum(conf_matrix_gb, axis=1)
+f1_score_gb = 2 * (recall_gb * np.mean(recall_gb)) / (recall_gb + np.mean(recall_gb))
 
 print("Confusion Matrix:")
-print(conf_matrix_ensemble)
+print(conf_matrix_gb)
 print("\nClassification Report:")
-print(classification_report(y_test, y_pred_ensemble))
-print("\nRecall (per class):", recall_ensemble)
-print("Average Recall:", np.mean(recall_ensemble))
-print("F1 Score (per class):", f1_score_ensemble)
-print("Average F1 Score:", np.mean(f1_score_ensemble))
-print("Ensemble Model Accuracy:", accuracy_score(y_test, y_pred_ensemble))
+print(classification_report(y_test, y_pred_gb))
+print("\nRecall (per class):", recall_gb)
+print("Average Recall:", np.mean(recall_gb))
+print("F1 Score (per class):", f1_score_gb)
+print("Average F1 Score:", np.mean(f1_score_gb))
+print("Gradient Boosting Model Accuracy:", accuracy_score(y_test, y_pred_gb))
 
-joblib.dump(ensemble_model, "Audio_model.joblib")
-joblib.dump(scaler, "Audio_scaler.joblib")
-joblib.dump(selector, "Audio_selector.joblib")
-
+joblib.dump(model_gb, "Audio_model_gb.joblib")
+joblib.dump(scaler, "Audio_scaler_gb.joblib")
+joblib.dump(selector, "Audio_selector_gb.joblib")
