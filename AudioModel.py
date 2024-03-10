@@ -16,11 +16,14 @@ from imblearn.under_sampling import RandomUnderSampler
 # Function to extract audio features using librosa
 def extract_features(file_path):
     y, sr = librosa.load(file_path, duration=3)  # Load audio file
-    mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)  # Extract MFCC features
-    chroma = librosa.feature.chroma_stft(y=y, sr=sr)  # Extract Chroma features
-    mel = librosa.feature.melspectrogram(y=y, sr=sr)  # Extract Mel features
+    n_fft = 512  
+    mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13, n_fft=n_fft)  # Extract MFCC features with reduced n_fft
+    chroma = librosa.feature.chroma_stft(y=y, sr=sr, n_fft=n_fft)  # Extract Chroma features with reduced n_fft
+    mel = librosa.feature.melspectrogram(y=y, sr=sr, n_fft=n_fft)  # Extract Mel features with reduced n_fft
     features = np.concatenate([mfccs.mean(axis=1), chroma.mean(axis=1), mel.mean(axis=1)])
+    
     return features
+
 
 # Function to create a dataset from audio files with aggressive data augmentation
 def create_augmented_dataset(data_folder, label):
@@ -37,7 +40,7 @@ def create_augmented_dataset(data_folder, label):
                 pitch_shifted_features = librosa.effects.pitch_shift(features[:-1], sr=sr, n_steps=np.random.uniform(-2, 2))
                 augmented_data = np.concatenate([pitch_shifted_features, [label]])
                 dataset.append(augmented_data.tolist())
-
+    
     return dataset
 
 # Load Healthy and Parkinson's datasets with aggressive data augmentation
@@ -53,16 +56,17 @@ df = pd.DataFrame(combined_data, columns=df_columns)
 
 # Replace NaN values with zeros
 df = df.fillna(0)
-
+# print(df.columns)
+# print(df)
 # Save the DataFrame to CSV
-df.to_csv("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/AudioData.csv", index=False)
+# df.to_csv("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/AudioData.csv", index=False)
 
 # Load the CSV data
-data = pd.read_csv("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/AudioData.csv")
+# data = pd.read_csv("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/AudioData.csv")
 
 # Split the data into features and labels
-X = data.iloc[:, :-1]
-y = data.iloc[:, -1]
+X = df.iloc[:, :-1]
+y = df.iloc[:, -1]
 
 # Data Augmentation
 # No additional data augmentation is needed as it's already applied during dataset creation.

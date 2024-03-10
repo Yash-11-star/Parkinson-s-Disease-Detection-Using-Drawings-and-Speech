@@ -27,6 +27,8 @@ data = pd.read_csv(data_filename)
 # Split the data into features and labels
 X_train = data.iloc[:, :-1]
 y_train = data.iloc[:, -1]
+# print("x_train", X_train)
+# print("y_train", y_train)
 
 # Function to extract audio features using librosa
 def extract_features(file_path):
@@ -35,6 +37,7 @@ def extract_features(file_path):
     chroma = librosa.feature.chroma_stft(y=y, sr=sr)  # Extract Chroma features
     mel = librosa.feature.melspectrogram(y=y, sr=sr)  # Extract Mel features
     features = np.concatenate([mfccs.mean(axis=1), chroma.mean(axis=1), mel.mean(axis=1)])
+
     return features
 
 # Function to preprocess features
@@ -60,7 +63,7 @@ def predict(model, features, scaler, selector):
 
 # Example of using the saved model for prediction
 new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Parkinsons.wav"
-# new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy.wav"
+# new_data_path = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy2.wav"
 new_data = extract_features(new_data_path)
 prediction = predict(ensemble_model, new_data, scaler, selector)
 print(f"Prediction: {prediction}")
