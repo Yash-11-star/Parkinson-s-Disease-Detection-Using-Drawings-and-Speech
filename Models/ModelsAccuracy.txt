@@ -1,0 +1,2555 @@
+Combination 1
+Models:
+decision_tree
+Accuracy: 90.5
+
+Combination 2
+Models:
+random_forest
+Accuracy: 90.0
+
+Combination 3
+Models:
+xgboost
+Accuracy: 91.5
+
+Combination 4
+Models:
+svm
+Accuracy: 86.0
+
+Combination 5
+Models:
+knn
+Accuracy: 84.0
+
+Combination 6
+Models:
+naive_bayes
+Accuracy: 84.0
+
+Combination 7
+Models:
+bagging
+Accuracy: 91.0
+
+Combination 8
+Models:
+adaboost
+Accuracy: 88.0
+
+Combination 9
+Models:
+gradient_boosting
+Accuracy: 91.0
+
+Combination 10
+Models:
+decision_tree, random_forest
+Accuracy: 91.0
+
+Combination 11
+Models:
+decision_tree, xgboost
+Accuracy: 92.0
+
+Combination 12
+Models:
+decision_tree, svm
+Accuracy: 87.5
+
+Combination 13
+Models:
+decision_tree, knn
+Accuracy: 86.5
+
+Combination 14
+Models:
+decision_tree, naive_bayes
+Accuracy: 86.5
+
+Combination 15
+Models:
+decision_tree, bagging
+Accuracy: 91.0
+
+Combination 16
+Models:
+decision_tree, adaboost
+Accuracy: 89.5
+
+Combination 17
+Models:
+decision_tree, gradient_boosting
+Accuracy: 91.0
+
+Combination 18
+Models:
+random_forest, xgboost
+Accuracy: 91.0
+
+Combination 19
+Models:
+random_forest, svm
+Accuracy: 85.5
+
+Combination 20
+Models:
+random_forest, knn
+Accuracy: 85.0
+
+Combination 21
+Models:
+random_forest, naive_bayes
+Accuracy: 86.0
+
+Combination 22
+Models:
+random_forest, bagging
+Accuracy: 89.5
+
+Combination 23
+Models:
+random_forest, adaboost
+Accuracy: 89.0
+
+Combination 24
+Models:
+random_forest, gradient_boosting
+Accuracy: 89.5
+
+Combination 25
+Models:
+xgboost, svm
+Accuracy: 87.5
+
+Combination 26
+Models:
+xgboost, knn
+Accuracy: 86.0
+
+Combination 27
+Models:
+xgboost, naive_bayes
+Accuracy: 86.5
+
+Combination 28
+Models:
+xgboost, bagging
+Accuracy: 91.0
+
+Combination 29
+Models:
+xgboost, adaboost
+Accuracy: 89.5
+
+Combination 30
+Models:
+xgboost, gradient_boosting
+Accuracy: 91.5
+
+Combination 31
+Models:
+svm, knn
+Accuracy: 83.0
+
+Combination 32
+Models:
+svm, naive_bayes
+Accuracy: 86.0
+
+Combination 33
+Models:
+svm, bagging
+Accuracy: 87.5
+
+Combination 34
+Models:
+svm, adaboost
+Accuracy: 87.0
+
+Combination 35
+Models:
+svm, gradient_boosting
+Accuracy: 87.0
+
+Combination 36
+Models:
+knn, naive_bayes
+Accuracy: 82.5
+
+Combination 37
+Models:
+knn, bagging
+Accuracy: 85.0
+
+Combination 38
+Models:
+knn, adaboost
+Accuracy: 84.0
+
+Combination 39
+Models:
+knn, gradient_boosting
+Accuracy: 85.0
+
+Combination 40
+Models:
+naive_bayes, bagging
+Accuracy: 86.5
+
+Combination 41
+Models:
+naive_bayes, adaboost
+Accuracy: 86.0
+
+Combination 42
+Models:
+naive_bayes, gradient_boosting
+Accuracy: 86.0
+
+Combination 43
+Models:
+bagging, adaboost
+Accuracy: 89.5
+
+Combination 44
+Models:
+bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 45
+Models:
+adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 46
+Models:
+decision_tree, random_forest, xgboost
+Accuracy: 91.0
+
+Combination 47
+Models:
+decision_tree, random_forest, svm
+Accuracy: 90.0
+
+Combination 48
+Models:
+decision_tree, random_forest, knn
+Accuracy: 90.5
+
+Combination 49
+Models:
+decision_tree, random_forest, naive_bayes
+Accuracy: 90.0
+
+Combination 50
+Models:
+decision_tree, random_forest, bagging
+Accuracy: 91.0
+
+Combination 51
+Models:
+decision_tree, random_forest, adaboost
+Accuracy: 90.0
+
+Combination 52
+Models:
+decision_tree, random_forest, gradient_boosting
+Accuracy: 90.5
+
+Combination 53
+Models:
+decision_tree, xgboost, svm
+Accuracy: 91.0
+
+Combination 54
+Models:
+decision_tree, xgboost, knn
+Accuracy: 90.5
+
+Combination 55
+Models:
+decision_tree, xgboost, naive_bayes
+Accuracy: 91.0
+
+Combination 56
+Models:
+decision_tree, xgboost, bagging
+Accuracy: 91.0
+
+Combination 57
+Models:
+decision_tree, xgboost, adaboost
+Accuracy: 90.0
+
+Combination 58
+Models:
+decision_tree, xgboost, gradient_boosting
+Accuracy: 91.5
+
+Combination 59
+Models:
+decision_tree, svm, knn
+Accuracy: 88.0
+
+Combination 60
+Models:
+decision_tree, svm, naive_bayes
+Accuracy: 88.0
+
+Combination 61
+Models:
+decision_tree, svm, bagging
+Accuracy: 91.0
+
+Combination 62
+Models:
+decision_tree, svm, adaboost
+Accuracy: 89.0
+
+Combination 63
+Models:
+decision_tree, svm, gradient_boosting
+Accuracy: 90.5
+
+Combination 64
+Models:
+decision_tree, knn, naive_bayes
+Accuracy: 88.5
+
+Combination 65
+Models:
+decision_tree, knn, bagging
+Accuracy: 90.5
+
+Combination 66
+Models:
+decision_tree, knn, adaboost
+Accuracy: 90.0
+
+Combination 67
+Models:
+decision_tree, knn, gradient_boosting
+Accuracy: 90.5
+
+Combination 68
+Models:
+decision_tree, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 69
+Models:
+decision_tree, naive_bayes, adaboost
+Accuracy: 89.0
+
+Combination 70
+Models:
+decision_tree, naive_bayes, gradient_boosting
+Accuracy: 90.5
+
+Combination 71
+Models:
+decision_tree, bagging, adaboost
+Accuracy: 90.0
+
+Combination 72
+Models:
+decision_tree, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 73
+Models:
+decision_tree, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 74
+Models:
+random_forest, xgboost, svm
+Accuracy: 90.0
+
+Combination 75
+Models:
+random_forest, xgboost, knn
+Accuracy: 90.0
+
+Combination 76
+Models:
+random_forest, xgboost, naive_bayes
+Accuracy: 90.5
+
+Combination 77
+Models:
+random_forest, xgboost, bagging
+Accuracy: 90.5
+
+Combination 78
+Models:
+random_forest, xgboost, adaboost
+Accuracy: 90.0
+
+Combination 79
+Models:
+random_forest, xgboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 80
+Models:
+random_forest, svm, knn
+Accuracy: 88.0
+
+Combination 81
+Models:
+random_forest, svm, naive_bayes
+Accuracy: 88.0
+
+Combination 82
+Models:
+random_forest, svm, bagging
+Accuracy: 90.5
+
+Combination 83
+Models:
+random_forest, svm, adaboost
+Accuracy: 88.5
+
+Combination 84
+Models:
+random_forest, svm, gradient_boosting
+Accuracy: 91.0
+
+Combination 85
+Models:
+random_forest, knn, naive_bayes
+Accuracy: 88.0
+
+Combination 86
+Models:
+random_forest, knn, bagging
+Accuracy: 91.5
+
+Combination 87
+Models:
+random_forest, knn, adaboost
+Accuracy: 90.5
+
+Combination 88
+Models:
+random_forest, knn, gradient_boosting
+Accuracy: 89.5
+
+Combination 89
+Models:
+random_forest, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 90
+Models:
+random_forest, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 91
+Models:
+random_forest, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 92
+Models:
+random_forest, bagging, adaboost
+Accuracy: 91.0
+
+Combination 93
+Models:
+random_forest, bagging, gradient_boosting
+Accuracy: 91.5
+
+Combination 94
+Models:
+random_forest, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 95
+Models:
+xgboost, svm, knn
+Accuracy: 88.5
+
+Combination 96
+Models:
+xgboost, svm, naive_bayes
+Accuracy: 88.0
+
+Combination 97
+Models:
+xgboost, svm, bagging
+Accuracy: 91.0
+
+Combination 98
+Models:
+xgboost, svm, adaboost
+Accuracy: 89.0
+
+Combination 99
+Models:
+xgboost, svm, gradient_boosting
+Accuracy: 90.0
+
+Combination 100
+Models:
+xgboost, knn, naive_bayes
+Accuracy: 89.0
+
+Combination 101
+Models:
+xgboost, knn, bagging
+Accuracy: 91.0
+
+Combination 102
+Models:
+xgboost, knn, adaboost
+Accuracy: 90.5
+
+Combination 103
+Models:
+xgboost, knn, gradient_boosting
+Accuracy: 90.5
+
+Combination 104
+Models:
+xgboost, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 105
+Models:
+xgboost, naive_bayes, adaboost
+Accuracy: 89.0
+
+Combination 106
+Models:
+xgboost, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 107
+Models:
+xgboost, bagging, adaboost
+Accuracy: 90.0
+
+Combination 108
+Models:
+xgboost, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 109
+Models:
+xgboost, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 110
+Models:
+svm, knn, naive_bayes
+Accuracy: 87.5
+
+Combination 111
+Models:
+svm, knn, bagging
+Accuracy: 88.5
+
+Combination 112
+Models:
+svm, knn, adaboost
+Accuracy: 87.0
+
+Combination 113
+Models:
+svm, knn, gradient_boosting
+Accuracy: 88.0
+
+Combination 114
+Models:
+svm, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 115
+Models:
+svm, naive_bayes, adaboost
+Accuracy: 88.0
+
+Combination 116
+Models:
+svm, naive_bayes, gradient_boosting
+Accuracy: 88.0
+
+Combination 117
+Models:
+svm, bagging, adaboost
+Accuracy: 90.0
+
+Combination 118
+Models:
+svm, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 119
+Models:
+svm, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 120
+Models:
+knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 121
+Models:
+knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 122
+Models:
+knn, naive_bayes, gradient_boosting
+Accuracy: 88.5
+
+Combination 123
+Models:
+knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 124
+Models:
+knn, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 125
+Models:
+knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 126
+Models:
+naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 127
+Models:
+naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 128
+Models:
+naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 129
+Models:
+bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 130
+Models:
+decision_tree, random_forest, xgboost, svm
+Accuracy: 90.5
+
+Combination 131
+Models:
+decision_tree, random_forest, xgboost, knn
+Accuracy: 90.5
+
+Combination 132
+Models:
+decision_tree, random_forest, xgboost, naive_bayes
+Accuracy: 90.5
+
+Combination 133
+Models:
+decision_tree, random_forest, xgboost, bagging
+Accuracy: 90.5
+
+Combination 134
+Models:
+decision_tree, random_forest, xgboost, adaboost
+Accuracy: 90.5
+
+Combination 135
+Models:
+decision_tree, random_forest, xgboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 136
+Models:
+decision_tree, random_forest, svm, knn
+Accuracy: 87.5
+
+Combination 137
+Models:
+decision_tree, random_forest, svm, naive_bayes
+Accuracy: 87.5
+
+Combination 138
+Models:
+decision_tree, random_forest, svm, bagging
+Accuracy: 91.0
+
+Combination 139
+Models:
+decision_tree, random_forest, svm, adaboost
+Accuracy: 89.5
+
+Combination 140
+Models:
+decision_tree, random_forest, svm, gradient_boosting
+Accuracy: 90.0
+
+Combination 141
+Models:
+decision_tree, random_forest, knn, naive_bayes
+Accuracy: 88.0
+
+Combination 142
+Models:
+decision_tree, random_forest, knn, bagging
+Accuracy: 89.0
+
+Combination 143
+Models:
+decision_tree, random_forest, knn, adaboost
+Accuracy: 90.5
+
+Combination 144
+Models:
+decision_tree, random_forest, knn, gradient_boosting
+Accuracy: 90.0
+
+Combination 145
+Models:
+decision_tree, random_forest, naive_bayes, bagging
+Accuracy: 90.0
+
+Combination 146
+Models:
+decision_tree, random_forest, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 147
+Models:
+decision_tree, random_forest, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 148
+Models:
+decision_tree, random_forest, bagging, adaboost
+Accuracy: 90.0
+
+Combination 149
+Models:
+decision_tree, random_forest, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 150
+Models:
+decision_tree, random_forest, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 151
+Models:
+decision_tree, xgboost, svm, knn
+Accuracy: 88.5
+
+Combination 152
+Models:
+decision_tree, xgboost, svm, naive_bayes
+Accuracy: 87.5
+
+Combination 153
+Models:
+decision_tree, xgboost, svm, bagging
+Accuracy: 90.5
+
+Combination 154
+Models:
+decision_tree, xgboost, svm, adaboost
+Accuracy: 89.5
+
+Combination 155
+Models:
+decision_tree, xgboost, svm, gradient_boosting
+Accuracy: 91.0
+
+Combination 156
+Models:
+decision_tree, xgboost, knn, naive_bayes
+Accuracy: 88.5
+
+Combination 157
+Models:
+decision_tree, xgboost, knn, bagging
+Accuracy: 90.5
+
+Combination 158
+Models:
+decision_tree, xgboost, knn, adaboost
+Accuracy: 90.5
+
+Combination 159
+Models:
+decision_tree, xgboost, knn, gradient_boosting
+Accuracy: 91.0
+
+Combination 160
+Models:
+decision_tree, xgboost, naive_bayes, bagging
+Accuracy: 90.5
+
+Combination 161
+Models:
+decision_tree, xgboost, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 162
+Models:
+decision_tree, xgboost, naive_bayes, gradient_boosting
+Accuracy: 91.0
+
+Combination 163
+Models:
+decision_tree, xgboost, bagging, adaboost
+Accuracy: 90.5
+
+Combination 164
+Models:
+decision_tree, xgboost, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 165
+Models:
+decision_tree, xgboost, adaboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 166
+Models:
+decision_tree, svm, knn, naive_bayes
+Accuracy: 87.0
+
+Combination 167
+Models:
+decision_tree, svm, knn, bagging
+Accuracy: 88.0
+
+Combination 168
+Models:
+decision_tree, svm, knn, adaboost
+Accuracy: 87.0
+
+Combination 169
+Models:
+decision_tree, svm, knn, gradient_boosting
+Accuracy: 88.0
+
+Combination 170
+Models:
+decision_tree, svm, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 171
+Models:
+decision_tree, svm, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 172
+Models:
+decision_tree, svm, naive_bayes, gradient_boosting
+Accuracy: 87.5
+
+Combination 173
+Models:
+decision_tree, svm, bagging, adaboost
+Accuracy: 89.5
+
+Combination 174
+Models:
+decision_tree, svm, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 175
+Models:
+decision_tree, svm, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 176
+Models:
+decision_tree, knn, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 177
+Models:
+decision_tree, knn, naive_bayes, adaboost
+Accuracy: 87.0
+
+Combination 178
+Models:
+decision_tree, knn, naive_bayes, gradient_boosting
+Accuracy: 88.0
+
+Combination 179
+Models:
+decision_tree, knn, bagging, adaboost
+Accuracy: 90.0
+
+Combination 180
+Models:
+decision_tree, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 181
+Models:
+decision_tree, knn, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 182
+Models:
+decision_tree, naive_bayes, bagging, adaboost
+Accuracy: 89.5
+
+Combination 183
+Models:
+decision_tree, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 184
+Models:
+decision_tree, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 185
+Models:
+decision_tree, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 186
+Models:
+random_forest, xgboost, svm, knn
+Accuracy: 87.0
+
+Combination 187
+Models:
+random_forest, xgboost, svm, naive_bayes
+Accuracy: 87.0
+
+Combination 188
+Models:
+random_forest, xgboost, svm, bagging
+Accuracy: 91.0
+
+Combination 189
+Models:
+random_forest, xgboost, svm, adaboost
+Accuracy: 89.0
+
+Combination 190
+Models:
+random_forest, xgboost, svm, gradient_boosting
+Accuracy: 89.5
+
+Combination 191
+Models:
+random_forest, xgboost, knn, naive_bayes
+Accuracy: 88.5
+
+Combination 192
+Models:
+random_forest, xgboost, knn, bagging
+Accuracy: 91.0
+
+Combination 193
+Models:
+random_forest, xgboost, knn, adaboost
+Accuracy: 91.0
+
+Combination 194
+Models:
+random_forest, xgboost, knn, gradient_boosting
+Accuracy: 90.0
+
+Combination 195
+Models:
+random_forest, xgboost, naive_bayes, bagging
+Accuracy: 90.5
+
+Combination 196
+Models:
+random_forest, xgboost, naive_bayes, adaboost
+Accuracy: 89.0
+
+Combination 197
+Models:
+random_forest, xgboost, naive_bayes, gradient_boosting
+Accuracy: 89.0
+
+Combination 198
+Models:
+random_forest, xgboost, bagging, adaboost
+Accuracy: 90.0
+
+Combination 199
+Models:
+random_forest, xgboost, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 200
+Models:
+random_forest, xgboost, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 201
+Models:
+random_forest, svm, knn, naive_bayes
+Accuracy: 88.0
+
+Combination 202
+Models:
+random_forest, svm, knn, bagging
+Accuracy: 88.5
+
+Combination 203
+Models:
+random_forest, svm, knn, adaboost
+Accuracy: 87.5
+
+Combination 204
+Models:
+random_forest, svm, knn, gradient_boosting
+Accuracy: 87.5
+
+Combination 205
+Models:
+random_forest, svm, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 206
+Models:
+random_forest, svm, naive_bayes, adaboost
+Accuracy: 88.0
+
+Combination 207
+Models:
+random_forest, svm, naive_bayes, gradient_boosting
+Accuracy: 87.5
+
+Combination 208
+Models:
+random_forest, svm, bagging, adaboost
+Accuracy: 90.0
+
+Combination 209
+Models:
+random_forest, svm, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 210
+Models:
+random_forest, svm, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 211
+Models:
+random_forest, knn, naive_bayes, bagging
+Accuracy: 88.5
+
+Combination 212
+Models:
+random_forest, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 213
+Models:
+random_forest, knn, naive_bayes, gradient_boosting
+Accuracy: 88.5
+
+Combination 214
+Models:
+random_forest, knn, bagging, adaboost
+Accuracy: 90.0
+
+Combination 215
+Models:
+random_forest, knn, bagging, gradient_boosting
+Accuracy: 89.0
+
+Combination 216
+Models:
+random_forest, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 217
+Models:
+random_forest, naive_bayes, bagging, adaboost
+Accuracy: 89.5
+
+Combination 218
+Models:
+random_forest, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 219
+Models:
+random_forest, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 220
+Models:
+random_forest, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 221
+Models:
+xgboost, svm, knn, naive_bayes
+Accuracy: 87.5
+
+Combination 222
+Models:
+xgboost, svm, knn, bagging
+Accuracy: 88.5
+
+Combination 223
+Models:
+xgboost, svm, knn, adaboost
+Accuracy: 87.5
+
+Combination 224
+Models:
+xgboost, svm, knn, gradient_boosting
+Accuracy: 88.0
+
+Combination 225
+Models:
+xgboost, svm, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 226
+Models:
+xgboost, svm, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 227
+Models:
+xgboost, svm, naive_bayes, gradient_boosting
+Accuracy: 87.0
+
+Combination 228
+Models:
+xgboost, svm, bagging, adaboost
+Accuracy: 89.5
+
+Combination 229
+Models:
+xgboost, svm, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 230
+Models:
+xgboost, svm, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 231
+Models:
+xgboost, knn, naive_bayes, bagging
+Accuracy: 88.5
+
+Combination 232
+Models:
+xgboost, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 233
+Models:
+xgboost, knn, naive_bayes, gradient_boosting
+Accuracy: 88.0
+
+Combination 234
+Models:
+xgboost, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 235
+Models:
+xgboost, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 236
+Models:
+xgboost, knn, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 237
+Models:
+xgboost, naive_bayes, bagging, adaboost
+Accuracy: 89.5
+
+Combination 238
+Models:
+xgboost, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 239
+Models:
+xgboost, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 240
+Models:
+xgboost, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 241
+Models:
+svm, knn, naive_bayes, bagging
+Accuracy: 88.0
+
+Combination 242
+Models:
+svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 243
+Models:
+svm, knn, naive_bayes, gradient_boosting
+Accuracy: 87.5
+
+Combination 244
+Models:
+svm, knn, bagging, adaboost
+Accuracy: 87.5
+
+Combination 245
+Models:
+svm, knn, bagging, gradient_boosting
+Accuracy: 88.5
+
+Combination 246
+Models:
+svm, knn, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 247
+Models:
+svm, naive_bayes, bagging, adaboost
+Accuracy: 88.0
+
+Combination 248
+Models:
+svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 88.0
+
+Combination 249
+Models:
+svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 250
+Models:
+svm, bagging, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 251
+Models:
+knn, naive_bayes, bagging, adaboost
+Accuracy: 87.5
+
+Combination 252
+Models:
+knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 88.5
+
+Combination 253
+Models:
+knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 254
+Models:
+knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 255
+Models:
+naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 256
+Models:
+decision_tree, random_forest, xgboost, svm, knn
+Accuracy: 90.5
+
+Combination 257
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes
+Accuracy: 89.5
+
+Combination 258
+Models:
+decision_tree, random_forest, xgboost, svm, bagging
+Accuracy: 91.5
+
+Combination 259
+Models:
+decision_tree, random_forest, xgboost, svm, adaboost
+Accuracy: 90.5
+
+Combination 260
+Models:
+decision_tree, random_forest, xgboost, svm, gradient_boosting
+Accuracy: 90.5
+
+Combination 261
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes
+Accuracy: 90.0
+
+Combination 262
+Models:
+decision_tree, random_forest, xgboost, knn, bagging
+Accuracy: 91.0
+
+Combination 263
+Models:
+decision_tree, random_forest, xgboost, knn, adaboost
+Accuracy: 91.0
+
+Combination 264
+Models:
+decision_tree, random_forest, xgboost, knn, gradient_boosting
+Accuracy: 90.5
+
+Combination 265
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 266
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, adaboost
+Accuracy: 90.0
+
+Combination 267
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 268
+Models:
+decision_tree, random_forest, xgboost, bagging, adaboost
+Accuracy: 89.0
+
+Combination 269
+Models:
+decision_tree, random_forest, xgboost, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 270
+Models:
+decision_tree, random_forest, xgboost, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 271
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes
+Accuracy: 89.0
+
+Combination 272
+Models:
+decision_tree, random_forest, svm, knn, bagging
+Accuracy: 91.0
+
+Combination 273
+Models:
+decision_tree, random_forest, svm, knn, adaboost
+Accuracy: 90.5
+
+Combination 274
+Models:
+decision_tree, random_forest, svm, knn, gradient_boosting
+Accuracy: 89.5
+
+Combination 275
+Models:
+decision_tree, random_forest, svm, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 276
+Models:
+decision_tree, random_forest, svm, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 277
+Models:
+decision_tree, random_forest, svm, naive_bayes, gradient_boosting
+Accuracy: 91.0
+
+Combination 278
+Models:
+decision_tree, random_forest, svm, bagging, adaboost
+Accuracy: 91.0
+
+Combination 279
+Models:
+decision_tree, random_forest, svm, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 280
+Models:
+decision_tree, random_forest, svm, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 281
+Models:
+decision_tree, random_forest, knn, naive_bayes, bagging
+Accuracy: 90.5
+
+Combination 282
+Models:
+decision_tree, random_forest, knn, naive_bayes, adaboost
+Accuracy: 90.5
+
+Combination 283
+Models:
+decision_tree, random_forest, knn, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 284
+Models:
+decision_tree, random_forest, knn, bagging, adaboost
+Accuracy: 91.0
+
+Combination 285
+Models:
+decision_tree, random_forest, knn, bagging, gradient_boosting
+Accuracy: 89.5
+
+Combination 286
+Models:
+decision_tree, random_forest, knn, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 287
+Models:
+decision_tree, random_forest, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 288
+Models:
+decision_tree, random_forest, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 289
+Models:
+decision_tree, random_forest, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 290
+Models:
+decision_tree, random_forest, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 291
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes
+Accuracy: 89.0
+
+Combination 292
+Models:
+decision_tree, xgboost, svm, knn, bagging
+Accuracy: 91.0
+
+Combination 293
+Models:
+decision_tree, xgboost, svm, knn, adaboost
+Accuracy: 91.0
+
+Combination 294
+Models:
+decision_tree, xgboost, svm, knn, gradient_boosting
+Accuracy: 90.5
+
+Combination 295
+Models:
+decision_tree, xgboost, svm, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 296
+Models:
+decision_tree, xgboost, svm, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 297
+Models:
+decision_tree, xgboost, svm, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 298
+Models:
+decision_tree, xgboost, svm, bagging, adaboost
+Accuracy: 90.5
+
+Combination 299
+Models:
+decision_tree, xgboost, svm, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 300
+Models:
+decision_tree, xgboost, svm, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 301
+Models:
+decision_tree, xgboost, knn, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 302
+Models:
+decision_tree, xgboost, knn, naive_bayes, adaboost
+Accuracy: 91.0
+
+Combination 303
+Models:
+decision_tree, xgboost, knn, naive_bayes, gradient_boosting
+Accuracy: 90.5
+
+Combination 304
+Models:
+decision_tree, xgboost, knn, bagging, adaboost
+Accuracy: 91.0
+
+Combination 305
+Models:
+decision_tree, xgboost, knn, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 306
+Models:
+decision_tree, xgboost, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 307
+Models:
+decision_tree, xgboost, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 308
+Models:
+decision_tree, xgboost, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 309
+Models:
+decision_tree, xgboost, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 310
+Models:
+decision_tree, xgboost, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 311
+Models:
+decision_tree, svm, knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 312
+Models:
+decision_tree, svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 313
+Models:
+decision_tree, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 88.5
+
+Combination 314
+Models:
+decision_tree, svm, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 315
+Models:
+decision_tree, svm, knn, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 316
+Models:
+decision_tree, svm, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 317
+Models:
+decision_tree, svm, naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 318
+Models:
+decision_tree, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 319
+Models:
+decision_tree, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 320
+Models:
+decision_tree, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 321
+Models:
+decision_tree, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 322
+Models:
+decision_tree, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 323
+Models:
+decision_tree, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 324
+Models:
+decision_tree, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 325
+Models:
+decision_tree, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 326
+Models:
+random_forest, xgboost, svm, knn, naive_bayes
+Accuracy: 88.5
+
+Combination 327
+Models:
+random_forest, xgboost, svm, knn, bagging
+Accuracy: 91.0
+
+Combination 328
+Models:
+random_forest, xgboost, svm, knn, adaboost
+Accuracy: 89.5
+
+Combination 329
+Models:
+random_forest, xgboost, svm, knn, gradient_boosting
+Accuracy: 90.5
+
+Combination 330
+Models:
+random_forest, xgboost, svm, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 331
+Models:
+random_forest, xgboost, svm, naive_bayes, adaboost
+Accuracy: 90.0
+
+Combination 332
+Models:
+random_forest, xgboost, svm, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 333
+Models:
+random_forest, xgboost, svm, bagging, adaboost
+Accuracy: 90.5
+
+Combination 334
+Models:
+random_forest, xgboost, svm, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 335
+Models:
+random_forest, xgboost, svm, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 336
+Models:
+random_forest, xgboost, knn, naive_bayes, bagging
+Accuracy: 91.5
+
+Combination 337
+Models:
+random_forest, xgboost, knn, naive_bayes, adaboost
+Accuracy: 90.5
+
+Combination 338
+Models:
+random_forest, xgboost, knn, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 339
+Models:
+random_forest, xgboost, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 340
+Models:
+random_forest, xgboost, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 341
+Models:
+random_forest, xgboost, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 342
+Models:
+random_forest, xgboost, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 343
+Models:
+random_forest, xgboost, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 344
+Models:
+random_forest, xgboost, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 345
+Models:
+random_forest, xgboost, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 346
+Models:
+random_forest, svm, knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 347
+Models:
+random_forest, svm, knn, naive_bayes, adaboost
+Accuracy: 87.0
+
+Combination 348
+Models:
+random_forest, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 89.0
+
+Combination 349
+Models:
+random_forest, svm, knn, bagging, adaboost
+Accuracy: 90.0
+
+Combination 350
+Models:
+random_forest, svm, knn, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 351
+Models:
+random_forest, svm, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 352
+Models:
+random_forest, svm, naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 353
+Models:
+random_forest, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 354
+Models:
+random_forest, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 355
+Models:
+random_forest, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 356
+Models:
+random_forest, knn, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 357
+Models:
+random_forest, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 358
+Models:
+random_forest, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 359
+Models:
+random_forest, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 360
+Models:
+random_forest, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 361
+Models:
+xgboost, svm, knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 362
+Models:
+xgboost, svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 363
+Models:
+xgboost, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 88.5
+
+Combination 364
+Models:
+xgboost, svm, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 365
+Models:
+xgboost, svm, knn, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 366
+Models:
+xgboost, svm, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 367
+Models:
+xgboost, svm, naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 368
+Models:
+xgboost, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 369
+Models:
+xgboost, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 370
+Models:
+xgboost, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 371
+Models:
+xgboost, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 372
+Models:
+xgboost, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 373
+Models:
+xgboost, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 374
+Models:
+xgboost, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 375
+Models:
+xgboost, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 376
+Models:
+svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 88.0
+
+Combination 377
+Models:
+svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 89.0
+
+Combination 378
+Models:
+svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 379
+Models:
+svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 380
+Models:
+svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 381
+Models:
+knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 382
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes
+Accuracy: 88.0
+
+Combination 383
+Models:
+decision_tree, random_forest, xgboost, svm, knn, bagging
+Accuracy: 90.0
+
+Combination 384
+Models:
+decision_tree, random_forest, xgboost, svm, knn, adaboost
+Accuracy: 90.0
+
+Combination 385
+Models:
+decision_tree, random_forest, xgboost, svm, knn, gradient_boosting
+Accuracy: 90.0
+
+Combination 386
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, bagging
+Accuracy: 90.5
+
+Combination 387
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, adaboost
+Accuracy: 89.5
+
+Combination 388
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 389
+Models:
+decision_tree, random_forest, xgboost, svm, bagging, adaboost
+Accuracy: 89.5
+
+Combination 390
+Models:
+decision_tree, random_forest, xgboost, svm, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 391
+Models:
+decision_tree, random_forest, xgboost, svm, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 392
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, bagging
+Accuracy: 90.5
+
+Combination 393
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, adaboost
+Accuracy: 90.0
+
+Combination 394
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 395
+Models:
+decision_tree, random_forest, xgboost, knn, bagging, adaboost
+Accuracy: 90.0
+
+Combination 396
+Models:
+decision_tree, random_forest, xgboost, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 397
+Models:
+decision_tree, random_forest, xgboost, knn, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 398
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 399
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 400
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 401
+Models:
+decision_tree, random_forest, xgboost, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 402
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 403
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 404
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 88.5
+
+Combination 405
+Models:
+decision_tree, random_forest, svm, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 406
+Models:
+decision_tree, random_forest, svm, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 407
+Models:
+decision_tree, random_forest, svm, knn, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 408
+Models:
+decision_tree, random_forest, svm, naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 409
+Models:
+decision_tree, random_forest, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 410
+Models:
+decision_tree, random_forest, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 411
+Models:
+decision_tree, random_forest, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 412
+Models:
+decision_tree, random_forest, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 413
+Models:
+decision_tree, random_forest, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 414
+Models:
+decision_tree, random_forest, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 415
+Models:
+decision_tree, random_forest, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 416
+Models:
+decision_tree, random_forest, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 417
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, bagging
+Accuracy: 88.5
+
+Combination 418
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 419
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 88.0
+
+Combination 420
+Models:
+decision_tree, xgboost, svm, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 421
+Models:
+decision_tree, xgboost, svm, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 422
+Models:
+decision_tree, xgboost, svm, knn, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 423
+Models:
+decision_tree, xgboost, svm, naive_bayes, bagging, adaboost
+Accuracy: 89.5
+
+Combination 424
+Models:
+decision_tree, xgboost, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 425
+Models:
+decision_tree, xgboost, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 426
+Models:
+decision_tree, xgboost, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 427
+Models:
+decision_tree, xgboost, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 428
+Models:
+decision_tree, xgboost, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 429
+Models:
+decision_tree, xgboost, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 430
+Models:
+decision_tree, xgboost, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 431
+Models:
+decision_tree, xgboost, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 432
+Models:
+decision_tree, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 87.5
+
+Combination 433
+Models:
+decision_tree, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 88.5
+
+Combination 434
+Models:
+decision_tree, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 435
+Models:
+decision_tree, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 436
+Models:
+decision_tree, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 437
+Models:
+decision_tree, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 438
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, bagging
+Accuracy: 89.0
+
+Combination 439
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, adaboost
+Accuracy: 87.5
+
+Combination 440
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 88.0
+
+Combination 441
+Models:
+random_forest, xgboost, svm, knn, bagging, adaboost
+Accuracy: 90.5
+
+Combination 442
+Models:
+random_forest, xgboost, svm, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 443
+Models:
+random_forest, xgboost, svm, knn, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 444
+Models:
+random_forest, xgboost, svm, naive_bayes, bagging, adaboost
+Accuracy: 89.5
+
+Combination 445
+Models:
+random_forest, xgboost, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 446
+Models:
+random_forest, xgboost, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 447
+Models:
+random_forest, xgboost, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 448
+Models:
+random_forest, xgboost, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 449
+Models:
+random_forest, xgboost, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 89.0
+
+Combination 450
+Models:
+random_forest, xgboost, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 451
+Models:
+random_forest, xgboost, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 452
+Models:
+random_forest, xgboost, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 453
+Models:
+random_forest, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 88.0
+
+Combination 454
+Models:
+random_forest, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 89.0
+
+Combination 455
+Models:
+random_forest, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 456
+Models:
+random_forest, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 457
+Models:
+random_forest, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 458
+Models:
+random_forest, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 459
+Models:
+xgboost, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 87.5
+
+Combination 460
+Models:
+xgboost, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 88.5
+
+Combination 461
+Models:
+xgboost, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 462
+Models:
+xgboost, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 463
+Models:
+xgboost, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 89.5
+
+Combination 464
+Models:
+xgboost, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 465
+Models:
+svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 87.5
+
+Combination 466
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, bagging
+Accuracy: 91.0
+
+Combination 467
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, adaboost
+Accuracy: 91.0
+
+Combination 468
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, gradient_boosting
+Accuracy: 90.0
+
+Combination 469
+Models:
+decision_tree, random_forest, xgboost, svm, knn, bagging, adaboost
+Accuracy: 91.0
+
+Combination 470
+Models:
+decision_tree, random_forest, xgboost, svm, knn, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 471
+Models:
+decision_tree, random_forest, xgboost, svm, knn, adaboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 472
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 473
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 474
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 475
+Models:
+decision_tree, random_forest, xgboost, svm, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 476
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 477
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.0
+
+Combination 478
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 479
+Models:
+decision_tree, random_forest, xgboost, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 480
+Models:
+decision_tree, random_forest, xgboost, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 481
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 482
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 483
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 484
+Models:
+decision_tree, random_forest, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 485
+Models:
+decision_tree, random_forest, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 486
+Models:
+decision_tree, random_forest, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 487
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.5
+
+Combination 488
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 489
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 490
+Models:
+decision_tree, xgboost, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 491
+Models:
+decision_tree, xgboost, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 492
+Models:
+decision_tree, xgboost, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 493
+Models:
+decision_tree, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 494
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 91.0
+
+Combination 495
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 91.0
+
+Combination 496
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 89.0
+
+Combination 497
+Models:
+random_forest, xgboost, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 498
+Models:
+random_forest, xgboost, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 91.0
+
+Combination 499
+Models:
+random_forest, xgboost, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 500
+Models:
+random_forest, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 501
+Models:
+xgboost, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 502
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, bagging, adaboost
+Accuracy: 90.0
+
+Combination 503
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, bagging, gradient_boosting
+Accuracy: 90.5
+
+Combination 504
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 505
+Models:
+decision_tree, random_forest, xgboost, svm, knn, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 506
+Models:
+decision_tree, random_forest, xgboost, svm, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 507
+Models:
+decision_tree, random_forest, xgboost, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.0
+
+Combination 508
+Models:
+decision_tree, random_forest, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 509
+Models:
+decision_tree, xgboost, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 510
+Models:
+random_forest, xgboost, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
+Combination 511
+Models:
+decision_tree, random_forest, xgboost, svm, knn, naive_bayes, bagging, adaboost, gradient_boosting
+Accuracy: 90.5
+
