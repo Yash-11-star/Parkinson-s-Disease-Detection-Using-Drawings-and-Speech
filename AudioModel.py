@@ -1,5 +1,8 @@
 import joblib
 import os
+import tensorflow as tf
+from sklearn.tree import plot_tree
+import matplotlib.pyplot as plt
 import librosa
 import numpy as np
 import pandas as pd
@@ -124,6 +127,22 @@ print("F1 Score (per class):", f1_score_gb)
 print("Average F1 Score:", np.mean(f1_score_gb))
 print("Gradient Boosting Model Accuracy:", accuracy_score(y_test, y_pred_gb))
 
-joblib.dump(model_gb, "Audio_model_gb.joblib")
-joblib.dump(scaler, "Audio_scaler_gb.joblib")
-joblib.dump(selector, "Audio_selector_gb.joblib")
+if isinstance(model_gb, GradientBoostingClassifier):
+    for i, tree in enumerate(model_gb.estimators_):
+        plt.figure(figsize=(10, 10))
+        plot_tree(tree[0], filled=True, feature_names=X.columns)
+        plt.title(f'Decision Tree {i+1}')
+        plt.show()
+
+# Summary of the best parameters found during hyperparameter tuning
+print("Best Parameters:")
+print(best_params_gb)
+
+# Summary of the trained Gradient Boosting model
+print("\nGradient Boosting Model Summary:")
+print(model_gb)
+
+
+# joblib.dump(model_gb, "Audio_model_gb.joblib")
+# joblib.dump(scaler, "Audio_scaler_gb.joblib")
+# joblib.dump(selector, "Audio_selector_gb.joblib")

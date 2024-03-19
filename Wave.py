@@ -4,6 +4,8 @@ from wandb.keras import WandbCallback
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras import layers, models
+from tensorflow.keras.utils import plot_model
+
 
 
 wandb.init(project="Parkinson's Detection for Wave")
@@ -54,7 +56,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 # Train the model with WandbCallback
 model.fit(
     train_data_generator,
-    epochs=15,
+    epochs=10,
     validation_data=test_data_generator,
     callbacks=[WandbCallback()]
 )
@@ -64,5 +66,6 @@ accuracy = model.evaluate(test_data_generator)[1]
 wandb.log({'Test Accuracy': accuracy})
 print(f"Accuracy: {accuracy}")
 
-model.save('wave_model', save_format='tf')
+plot_model(model, to_file='model_architecture.png', show_shapes=True, show_layer_names=True)
+# model.save('wave_model', save_format='tf')
 

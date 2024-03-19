@@ -9,16 +9,16 @@ warnings.filterwarnings("ignore", category=UserWarning, message="n_fft=.*")
 warnings.filterwarnings("ignore", category=UserWarning, message="X does not have valid feature names.*", module='sklearn.base')
 
 # Load all the trained models
-model_dt = joblib.load('Audio_decision_tree_model.joblib')
-model_rf = joblib.load('Audio_random_forest_model.joblib')
-model_xgb = joblib.load('Audio_xgboost_model.joblib')
-model_svm = joblib.load('Audio_svm_model.joblib')
-model_knn = joblib.load('Audio_knn_model.joblib')
-model_nb = joblib.load('Audio_naive_bayes_model.joblib')
-model_bagging = joblib.load('Audio_bagging_model.joblib')
-model_adaboost = joblib.load('Audio_adaboost_model.joblib')
-model_gradient_boosting = joblib.load('Audio_gradient_boosting_model.joblib')
-ensemble_model_predict = joblib.load('Audio_ensemble_model.joblib')
+model_dt = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_decision_tree_model.joblib")
+model_rf = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_random_forest_model.joblib")
+model_xgb = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_xgboost_model.joblib")
+model_svm = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_svm_model.joblib")
+model_knn = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_knn_model.joblib")
+model_nb = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_naive_bayes_model.joblib")
+model_bagging = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_bagging_model.joblib")
+model_adaboost = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_adaboost_model.joblib")
+model_gradient_boosting = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_gradient_boosting_model.joblib")
+model_voting_classifier = joblib.load("/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Models/Audio_voting_classifier.joblib")
 
 # Function to preprocess new audio data
 def preprocess_audio(audio_data, target_sr=22050):
@@ -78,31 +78,23 @@ def predict_all_models(audio_data):
     predictions['Bagging'] = model_bagging.predict(preprocessed_audio_data)
     predictions['AdaBoost'] = model_adaboost.predict(preprocessed_audio_data)
     predictions['Gradient_Boosting'] = model_gradient_boosting.predict(preprocessed_audio_data)
+    predictions['Voting Classifier'] = model_voting_classifier.predict(preprocessed_audio_data)
+
     
-    # Count the number of votes for each class prediction
-    vote_counts = {'Parkinson': 0, 'Healthy': 0}
-    for model_name, prediction in predictions.items():
-        if prediction == 1:
-            vote_counts['Parkinson'] += 1
-        else:
-            vote_counts['Healthy'] += 1
-    
-    # Find the class with the maximum number of votes
-    final_prediction = max(vote_counts, key=vote_counts.get)
-    
-    return predictions, final_prediction
+    return predictions
 
 
 # Sample audio data
 # new_audio_data = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Parkinsons.wav"
-new_audio_data = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy.wav"
+# new_audio_data = "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/AudioDataset/Healthy2.wav"
+new_audio_data = "Clean Audio/Parkinsons.wav"
 
 # Predict using all models
-all_predictions, final_predict = predict_all_models(new_audio_data)
+all_predictions = predict_all_models(new_audio_data)
 
 # Display predictions
 for model_name, prediction in all_predictions.items():
-    if model_name :
+    if model_name != 'Voting Classifier' :
         print(f"{model_name} Prediction: {'Parkinson' if prediction == 1 else 'Healthy'}")
     
-print(f"Final Prediction: {final_predict}")
+print(f"### Voting Classifier Prediction: {'Parkinson' if all_predictions['Voting Classifier'] == 1 else 'Healthy'}")

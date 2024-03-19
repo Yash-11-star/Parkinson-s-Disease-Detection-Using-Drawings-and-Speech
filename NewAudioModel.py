@@ -368,3 +368,11 @@ gbcl.score(X_test , y_test)
 count_misclassified = (y_test != y_pred).sum()
 print('Misclassified samples in Gradient Boosting: {}'.format(count_misclassified))
 
+model_nb = gnb()
+model_nb.fit(X_train, y_train)
+predictions_nb = model_nb.predict(X_test)
+print(f"Naive Bayes Accuracy: {accuracy_score(y_test, predictions_nb) * 100:.2f}%")
+print(f"Naive Bayes F1 Score: {f1_score(y_test, predictions_nb) * 100:.2f}%")
+print(f"Naive Bayes Recall: {recall_score(y_test, predictions_nb) * 100:.2f}%")
+sns.heatmap(confusion_matrix(y_test, predictions_nb), annot=True, cbar=False)
+

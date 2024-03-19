@@ -1,0 +1,610 @@
+2024-03-15 00:03:28,592 INFO    StreamThr :42139 [internal.py:wandb_internal():86] W&B internal server running at pid: 42139, started at: 2024-03-15 00:03:28.591312
+2024-03-15 00:03:28,593 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status
+2024-03-15 00:03:28,598 INFO    WriterThread:42139 [datastore.py:open_for_write():87] open: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/run-cjsnj9w6.wandb
+2024-03-15 00:03:28,600 DEBUG   SenderThread:42139 [sender.py:send():382] send: header
+2024-03-15 00:03:28,628 DEBUG   SenderThread:42139 [sender.py:send():382] send: run
+2024-03-15 00:03:29,337 INFO    SenderThread:42139 [dir_watcher.py:__init__():211] watching files in: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files
+2024-03-15 00:03:29,337 INFO    SenderThread:42139 [sender.py:_start_run_threads():1136] run started: cjsnj9w6 with start time 1710441208.589964
+2024-03-15 00:03:29,344 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: check_version
+2024-03-15 00:03:29,344 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: check_version
+2024-03-15 00:03:29,601 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: run_start
+2024-03-15 00:03:29,614 DEBUG   HandlerThread:42139 [system_info.py:__init__():27] System info init
+2024-03-15 00:03:29,614 DEBUG   HandlerThread:42139 [system_info.py:__init__():42] System info init done
+2024-03-15 00:03:29,614 INFO    HandlerThread:42139 [system_monitor.py:start():194] Starting system monitor
+2024-03-15 00:03:29,614 INFO    SystemMonitor:42139 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-15 00:03:29,614 INFO    HandlerThread:42139 [system_monitor.py:probe():214] Collecting system info
+2024-03-15 00:03:29,617 INFO    SystemMonitor:42139 [interfaces.py:start():190] Started cpu monitoring
+2024-03-15 00:03:29,617 INFO    SystemMonitor:42139 [interfaces.py:start():190] Started disk monitoring
+2024-03-15 00:03:29,618 DEBUG   HandlerThread:42139 [system_info.py:probe():151] Probing system
+2024-03-15 00:03:29,620 INFO    SystemMonitor:42139 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-15 00:03:29,622 INFO    SystemMonitor:42139 [interfaces.py:start():190] Started memory monitoring
+2024-03-15 00:03:29,623 INFO    SystemMonitor:42139 [interfaces.py:start():190] Started network monitoring
+2024-03-15 00:03:29,628 DEBUG   HandlerThread:42139 [system_info.py:_probe_git():136] Probing git
+2024-03-15 00:03:29,644 DEBUG   HandlerThread:42139 [system_info.py:_probe_git():144] Probing git done
+2024-03-15 00:03:29,644 DEBUG   HandlerThread:42139 [system_info.py:probe():199] Probing system done
+2024-03-15 00:03:29,644 DEBUG   HandlerThread:42139 [system_monitor.py:probe():223] {'os': 'macOS-14.2.1-arm64-arm-64bit', 'python': '3.11.0', 'heartbeatAt': '2024-03-14T18:33:29.621938', 'startedAt': '2024-03-14T18:33:28.576179', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/Wave.py", 'codePathLocal': 'Wave.py', 'codePath': 'Wave.py', 'git': {'remote': 'https://github.com/Yash-11-star/Parkinson-s-Disease-Detection-Using-Drawings-and-Speech.git', 'commit': '58c8b330117b487af13b4546713925bc402a4df8'}, 'email': 'tembhurnikary@gmail.com', 'root': "/Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection", 'host': 'Yashs-MBP', 'username': 'yashtembhurnikar', 'executable': '/usr/local/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 9.426197052001953}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-03-15 00:03:29,644 INFO    HandlerThread:42139 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-15 00:03:29,644 INFO    HandlerThread:42139 [system_monitor.py:probe():227] Publishing system info
+2024-03-15 00:03:29,645 INFO    HandlerThread:42139 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-15 00:03:29,654 DEBUG   SenderThread:42139 [sender.py:send():382] send: files
+2024-03-15 00:03:29,654 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-15 00:03:29,662 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-15 00:03:29,663 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:03:29,663 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:03:29,663 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: python_packages
+2024-03-15 00:03:29,664 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:03:30,045 DEBUG   SenderThread:42139 [sender.py:send():382] send: telemetry
+2024-03-15 00:03:30,073 DEBUG   SenderThread:42139 [sender.py:send():382] send: telemetry
+2024-03-15 00:03:30,073 DEBUG   SenderThread:42139 [sender.py:send():382] send: telemetry
+2024-03-15 00:03:30,073 DEBUG   SenderThread:42139 [sender.py:send():382] send: files
+2024-03-15 00:03:30,074 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file model-best.h5 with policy live
+2024-03-15 00:03:30,074 DEBUG   SenderThread:42139 [sender.py:send():382] send: telemetry
+2024-03-15 00:03:30,074 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-15 00:03:30,343 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:30,343 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/requirements.txt
+2024-03-15 00:03:30,343 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-metadata.json
+2024-03-15 00:03:30,923 INFO    wandb-upload_0:42139 [upload_job.py:push():131] Uploaded file /var/folders/r9/q4xqtwfd4dbfq85pgd9bpswr0000gn/T/tmpg32ogi62wandb/60mi0ph5-wandb-metadata.json
+2024-03-15 00:03:32,359 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:34,423 DEBUG   SenderThread:42139 [sender.py:send():382] send: files
+2024-03-15 00:03:34,423 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json with policy now
+2024-03-15 00:03:34,423 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:03:34,424 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:03:34,424 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:03:35,226 INFO    wandb-upload_0:42139 [upload_job.py:push():131] Uploaded file /var/folders/r9/q4xqtwfd4dbfq85pgd9bpswr0000gn/T/tmpg32ogi62wandb/4ue80owb-media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json
+2024-03-15 00:03:35,367 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:03:35,367 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json
+2024-03-15 00:03:35,367 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/media
+2024-03-15 00:03:35,368 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/media/graph
+2024-03-15 00:03:36,339 INFO    wandb-upload_0:42139 [upload_job.py:push():131] Uploaded file /var/folders/r9/q4xqtwfd4dbfq85pgd9bpswr0000gn/T/tmpg32ogi62wandb/y0kuybs9-media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json
+2024-03-15 00:03:36,376 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:39,523 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:03:40,397 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:42,179 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:03:42,179 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:03:42,180 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:03:42,181 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:03:42,181 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:03:42,181 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:03:42,181 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:03:42,181 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:03:42,181 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:03:42,401 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:03:42,401 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:03:43,406 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:03:43,406 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:03:44,411 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/saved_model.pb
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.index
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/fingerprint.pb
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/keras_metadata.pb
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.data-00000-of-00001
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:03:44,412 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/assets
+2024-03-15 00:03:44,491 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:03:44,491 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:03:44,666 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:03:44,666 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:03:45,823 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU1OTk4NTQ3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': None}}
+2024-03-15 00:03:45,824 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:03:45,824 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:03:46,419 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:47,042 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpu6vua2xr
+2024-03-15 00:03:47,050 INFO    wandb-upload_5:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp4onftnq8
+2024-03-15 00:03:47,580 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpv77crc5e
+2024-03-15 00:03:48,234 INFO    wandb-upload_3:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp5lzpen_f
+2024-03-15 00:03:48,430 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:50,441 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:51,434 INFO    wandb-upload_0:42139 [upload_job.py:push():131] Uploaded file /var/folders/r9/q4xqtwfd4dbfq85pgd9bpswr0000gn/T/tmpg32ogi62wandb/ufizoloa-model-best.h5
+2024-03-15 00:03:51,602 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:03:54,461 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:55,999 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:03:55,999 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:03:56,000 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:03:56,000 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:03:56,001 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:03:56,073 INFO    wandb-upload_4:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpp1zn2wa0
+2024-03-15 00:03:56,468 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:03:57,011 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:03:58,480 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:03:59,668 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:03:59,669 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:03:59,671 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:04:02,498 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:02,640 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:03,500 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/config.yaml
+2024-03-15 00:04:06,519 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:08,711 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:09,837 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:09,838 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:09,842 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:04:09,843 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:09,852 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:10,549 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:04:10,549 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:13,956 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:14,684 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:04:14,684 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:04:14,722 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:04:16,578 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:19,658 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:20,595 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:23,651 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:23,652 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:23,662 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:04:23,668 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:23,670 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:24,620 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:04:24,621 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:24,677 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:28,669 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:29,628 DEBUG   SystemMonitor:42139 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-15 00:04:29,641 DEBUG   SenderThread:42139 [sender.py:send():382] send: telemetry
+2024-03-15 00:04:29,641 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:04:29,688 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:04:29,690 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:04:29,693 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:04:30,103 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:34,695 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:35,480 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:36,711 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/config.yaml
+2024-03-15 00:04:37,647 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:37,647 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:37,648 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:04:37,648 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:37,649 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:37,716 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:04:38,720 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:40,734 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:41,688 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:44,682 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:04:44,683 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:04:44,691 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:04:44,753 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:47,099 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:48,782 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:49,667 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:49,667 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:04:49,669 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:04:49,669 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:49,669 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:49,669 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:49,669 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:49,670 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:04:49,670 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:04:49,785 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:04:49,785 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:04:50,790 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:04:50,790 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/saved_model.pb
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.index
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/fingerprint.pb
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/keras_metadata.pb
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.data-00000-of-00001
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/assets
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:04:51,793 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:04:52,025 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:04:52,025 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:04:52,788 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU1OTk5Nzk2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU1OTk4NTQ3', 'versionIndex': 0}}}
+2024-03-15 00:04:52,789 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:52,795 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:53,508 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp8vfuj1vd
+2024-03-15 00:04:54,126 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpgym0_z94
+2024-03-15 00:04:54,132 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmphrix3rh8
+2024-03-15 00:04:54,808 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:55,268 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpj5e7ngl1
+2024-03-15 00:04:58,518 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:04:58,843 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:04:59,702 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:04:59,719 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:04:59,719 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:04:59,724 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:05:02,124 INFO    wandb-upload_3:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpc4ezy_jj
+2024-03-15 00:05:02,861 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:03,615 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:05,615 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:05,616 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:05,617 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:05:05,617 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:05,617 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:05,618 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:05,618 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:05,618 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:05,618 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:05,876 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:05:05,876 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:05:06,880 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:07,886 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/saved_model.pb
+2024-03-15 00:05:07,887 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.index
+2024-03-15 00:05:07,887 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/fingerprint.pb
+2024-03-15 00:05:07,887 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/keras_metadata.pb
+2024-03-15 00:05:07,887 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.data-00000-of-00001
+2024-03-15 00:05:07,888 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/assets
+2024-03-15 00:05:07,888 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:05:07,888 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:05:08,386 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:05:08,387 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:05:08,890 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:09,119 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU2MDAwMDg1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU1OTk5Nzk2', 'versionIndex': 1}}}
+2024-03-15 00:05:09,120 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:09,850 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpcne9qsvz
+2024-03-15 00:05:10,420 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmprgyk5n4e
+2024-03-15 00:05:10,589 INFO    wandb-upload_4:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpr4z8ly2f
+2024-03-15 00:05:10,899 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:12,157 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpz6akzb40
+2024-03-15 00:05:14,712 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:05:14,714 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:14,715 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:05:14,716 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:05:14,918 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:18,322 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp487d3f5t
+2024-03-15 00:05:18,949 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:20,220 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:21,663 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:21,663 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:21,664 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:05:21,664 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:21,665 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:21,665 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:21,665 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:21,665 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:21,666 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:21,962 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:05:21,962 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:05:22,966 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:22,967 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables_temp/part-00000-of-00001.data-00000-of-00001.tempstate7914424103532894974
+2024-03-15 00:05:22,967 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:05:22,967 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:05:22,967 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables_temp
+2024-03-15 00:05:23,872 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:05:23,872 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:05:24,686 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU2MDAwMzUx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU2MDAwMDg1', 'versionIndex': 2}}}
+2024-03-15 00:05:24,971 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:25,414 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpveoqcjiw
+2024-03-15 00:05:25,936 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:26,021 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpuy5w_4qj
+2024-03-15 00:05:26,030 INFO    wandb-upload_3:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpds693u2s
+2024-03-15 00:05:26,984 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:27,150 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpugpy269l
+2024-03-15 00:05:29,691 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:05:29,726 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:05:29,749 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:05:29,749 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:05:31,004 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:31,152 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:34,123 INFO    wandb-upload_4:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmprezrf8df
+2024-03-15 00:05:35,030 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:36,735 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:36,736 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:36,737 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:05:36,737 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:36,737 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:36,738 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:36,738 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:36,738 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:36,738 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:36,738 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:37,040 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:05:37,040 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:05:38,046 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables_temp/part-00000-of-00001.data-00000-of-00001.tempstate8398071789760937660
+2024-03-15 00:05:38,048 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:05:38,048 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:05:38,048 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables_temp
+2024-03-15 00:05:38,974 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:05:38,974 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:05:39,051 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:39,792 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU2MDAwNTg2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU2MDAwMzUx', 'versionIndex': 3}}}
+2024-03-15 00:05:40,617 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpmw0yiz34
+2024-03-15 00:05:41,068 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:41,171 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpkymtgnbt
+2024-03-15 00:05:41,172 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpxnj20dmp
+2024-03-15 00:05:41,857 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:42,425 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpmfwqv8j4
+2024-03-15 00:05:44,716 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:05:44,717 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:05:44,729 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:05:47,184 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:47,559 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:50,002 INFO    wandb-upload_3:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp3q0xvr38
+2024-03-15 00:05:51,197 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:52,407 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:52,407 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:05:52,408 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:05:52,408 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:52,408 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:52,409 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:52,409 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:52,409 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:05:52,409 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:05:53,204 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:05:53,204 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:05:53,411 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/saved_model.pb
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.index
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/fingerprint.pb
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/keras_metadata.pb
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.data-00000-of-00001
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/assets
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:05:54,209 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:05:54,664 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:05:54,664 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:05:55,216 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:55,558 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU2MDAwODA1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU2MDAwNTg2', 'versionIndex': 4}}}
+2024-03-15 00:05:56,225 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpm7w2e2m1
+2024-03-15 00:05:56,786 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp4rv97flr
+2024-03-15 00:05:56,786 INFO    wandb-upload_4:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp9ymedeym
+2024-03-15 00:05:57,223 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:58,263 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp41z13omo
+2024-03-15 00:05:58,572 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:05:59,232 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:05:59,683 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:05:59,740 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:05:59,740 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:05:59,741 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:06:01,238 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:04,123 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:04,855 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpd6o8otdw
+2024-03-15 00:06:05,269 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:06,327 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:06,327 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:06,328 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:06,328 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:06,328 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:07,277 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:06:09,284 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:09,347 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:11,299 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:14,397 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:14,731 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:06:14,732 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:06:14,735 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:06:15,319 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:17,328 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:17,639 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:17,639 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:17,640 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:17,640 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:17,640 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:18,335 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:06:19,341 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:19,658 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:23,359 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:24,878 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:27,378 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:28,932 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:28,932 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:28,933 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:28,933 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:28,933 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:28,934 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:28,934 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:28,934 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:28,934 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:29,385 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5
+2024-03-15 00:06:29,385 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:06:29,688 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:06:29,732 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:06:29,732 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:06:29,755 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:06:30,222 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:30,386 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.index
+2024-03-15 00:06:30,387 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables/variables.data-00000-of-00001
+2024-03-15 00:06:30,387 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/assets
+2024-03-15 00:06:30,387 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best
+2024-03-15 00:06:30,387 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best/variables
+2024-03-15 00:06:31,139 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-15 00:06:31,140 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: log_artifact
+2024-03-15 00:06:31,406 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:31,967 INFO    SenderThread:42139 [sender.py:send_request_log_artifact():1470] logged artifact model-cinnamon-pastry-2 - {'id': 'QXJ0aWZhY3Q6NzU2MDAxNDE1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODgxMzgyMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU2MDAwODA1', 'versionIndex': 5}}}
+2024-03-15 00:06:32,737 INFO    wandb-upload_5:42139 [upload_job.py:push():86] Skipped uploading /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmp1ujqpfoq
+2024-03-15 00:06:33,416 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:33,497 INFO    wandb-upload_3:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpq7tzouam
+2024-03-15 00:06:33,788 INFO    wandb-upload_1:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpdzszkdfg
+2024-03-15 00:06:34,729 INFO    wandb-upload_0:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpkbkgjo2j
+2024-03-15 00:06:35,240 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:37,447 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:40,490 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:41,462 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:42,248 INFO    wandb-upload_4:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpjzapr_yh
+2024-03-15 00:06:43,161 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:43,162 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:43,164 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:43,165 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:43,165 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:43,471 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:06:44,751 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 00:06:44,756 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:06:44,756 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 00:06:45,481 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:46,178 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:49,496 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:51,257 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:53,540 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:55,658 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:55,658 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:55,660 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:55,660 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:55,660 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:56,552 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:06:56,665 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:57,556 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:06:59,587 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 00:06:59,588 DEBUG   SenderThread:42139 [sender.py:send():382] send: history
+2024-03-15 00:06:59,588 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 00:06:59,588 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:59,594 DEBUG   SenderThread:42139 [sender.py:send():382] send: exit
+2024-03-15 00:06:59,594 INFO    SenderThread:42139 [sender.py:send_exit():589] handling exit code: 1
+2024-03-15 00:06:59,595 INFO    SenderThread:42139 [sender.py:send_exit():591] handling runtime: 209
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:send_exit():597] send defer
+2024-03-15 00:06:59,596 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-15 00:06:59,596 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 1
+2024-03-15 00:06:59,596 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-15 00:06:59,596 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-15 00:06:59,596 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 2
+2024-03-15 00:06:59,596 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-15 00:06:59,596 DEBUG   SystemMonitor:42139 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-15 00:06:59,596 DEBUG   SystemMonitor:42139 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-15 00:06:59,596 INFO    HandlerThread:42139 [interfaces.py:finish():202] Joined disk monitor
+2024-03-15 00:06:59,597 INFO    HandlerThread:42139 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-15 00:06:59,597 INFO    HandlerThread:42139 [interfaces.py:finish():202] Joined memory monitor
+2024-03-15 00:06:59,597 INFO    HandlerThread:42139 [interfaces.py:finish():202] Joined network monitor
+2024-03-15 00:06:59,597 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,597 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-15 00:06:59,597 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 3
+2024-03-15 00:06:59,597 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,597 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-15 00:06:59,597 DEBUG   SenderThread:42139 [sender.py:send():382] send: stats
+2024-03-15 00:06:59,597 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,597 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-15 00:06:59,597 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 4
+2024-03-15 00:06:59,598 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,598 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-15 00:06:59,598 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 5
+2024-03-15 00:06:59,598 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,598 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-15 00:06:59,598 DEBUG   SenderThread:42139 [sender.py:send():382] send: summary
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 00:06:59,598 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 6
+2024-03-15 00:06:59,598 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,598 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-15 00:06:59,598 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-15 00:06:59,598 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 7
+2024-03-15 00:06:59,598 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:06:59,598 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:06:59,598 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-15 00:06:59,599 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:06:59,599 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-15 00:07:00,576 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:07:00,601 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:01,581 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:07:02,841 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 8
+2024-03-15 00:07:02,842 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:02,842 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:02,843 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-15 00:07:02,843 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:02,844 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-15 00:07:02,844 INFO    SenderThread:42139 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-15 00:07:02,847 INFO    SenderThread:42139 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-15 00:07:02,849 INFO    SenderThread:42139 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-15 00:07:02,855 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 9
+2024-03-15 00:07:02,856 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:02,856 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-15 00:07:02,856 DEBUG   SenderThread:42139 [sender.py:send():382] send: artifact
+2024-03-15 00:07:03,592 INFO    Thread-12 :42139 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:07:03,619 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:06,401 INFO    wandb-upload_2:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpfiqhhbtu
+2024-03-15 00:07:06,402 INFO    wandb-upload_5:42139 [upload_job.py:push():89] Uploaded file /Users/yashtembhurnikar/Library/Application Support/wandb/artifacts/staging/tmpgt40wqdf
+2024-03-15 00:07:08,350 INFO    SenderThread:42139 [sender.py:send_artifact():1494] sent artifact job-https___github.com_Yash-11-star_Parkinson-s-Disease-Detection-Using-Drawings-and-Speech.git_Wave.py - {'id': 'QXJ0aWZhY3Q6NzU2MDAxODk4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNTI2NjYwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzA4MzI1NDE2', 'versionIndex': 0}}}
+2024-03-15 00:07:08,352 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:08,352 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-15 00:07:08,352 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:07:08,352 INFO    SenderThread:42139 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-15 00:07:08,610 INFO    SenderThread:42139 [dir_watcher.py:finish():388] scan: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files
+2024-03-15 00:07:08,611 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/requirements.txt requirements.txt
+2024-03-15 00:07:08,611 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log output.log
+2024-03-15 00:07:08,613 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/config.yaml config.yaml
+2024-03-15 00:07:08,614 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json wandb-summary.json
+2024-03-15 00:07:08,615 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-metadata.json wandb-metadata.json
+2024-03-15 00:07:08,616 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/model-best.h5 model-best.h5
+2024-03-15 00:07:08,619 INFO    SenderThread:42139 [dir_watcher.py:finish():402] scan save: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json
+2024-03-15 00:07:08,619 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 10
+2024-03-15 00:07:08,619 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:08,620 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:08,620 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-15 00:07:08,620 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:08,620 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-15 00:07:08,620 INFO    SenderThread:42139 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-15 00:07:08,648 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 00:07:08,649 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:08,652 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:09,330 INFO    wandb-upload_1:42139 [upload_job.py:push():131] Uploaded file /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/requirements.txt
+2024-03-15 00:07:09,420 INFO    wandb-upload_2:42139 [upload_job.py:push():131] Uploaded file /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/config.yaml
+2024-03-15 00:07:09,420 INFO    wandb-upload_0:42139 [upload_job.py:push():131] Uploaded file /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/wandb-summary.json
+2024-03-15 00:07:09,444 INFO    wandb-upload_4:42139 [upload_job.py:push():131] Uploaded file /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/files/output.log
+2024-03-15 00:07:09,654 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:09,655 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:10,661 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:10,662 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:11,057 WARNING FileStreamThread:42139 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: 502 Server Error: Bad Gateway for url: https://api.wandb.ai/files/pccoe_final_year/Parkinson's%20Detection%20for%20Wave/cjsnj9w6/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x117dbfe50>>, timeout=180), args: ("https://api.wandb.ai/files/pccoe_final_year/Parkinson's Detection for Wave/cjsnj9w6/file_stream",), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"graph": {"_type": "graph-file", "sha256": "d0f2a4a68bb00f9f1bebf7d45baf3af9f845ad8dad8df3acd27f1eb4fb7c14bc", "size": 731, "path": "media/graph/graph_summary_d0f2a4a68bb00f9f1beb.graph.json"}, "epoch": 10, "_timestamp": 1710441366.3270621, "loss": 0.43352821469306946, "accuracy": 0.8472222089767456, "val_loss": 0.5111549496650696, "val_accuracy": 0.7142857313156128, "_runtime": 157.7370982170105, "_step": 10, "best_val_loss": 0.39753106236457825, "best_epoch": 9}']}, 'wandb-history.jsonl': {'offset': 10, 'content': ['{"epoch": 10, "_timestamp": 1710441366.3270621, "loss": 0.43352821469306946, "accuracy": 0.8472222089767456, "val_loss": 0.5111549496650696, "val_accuracy": 0.7142857313156128, "_runtime": 157.7370982170105, "_step": 10}']}, 'output.log': {'offset': 42, 'content': ['2024-03-14T18:36:08.755302 3/3 [==============================] - 12s 4s/step - loss: 0.4335 - accuracy: 0.8472 - val_loss: 0.5112 - val_accuracy: 0.7143\n', '2024-03-14T18:36:08.755302 Epoch 12/15\n', '2024-03-14T18:36:10.762842 1/3 [=========>....................] - ETA: 7s - loss: 0.4200 - accuracy: 0.8750\n']}}, 'dropped': 0}}
+2024-03-15 00:07:11,666 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:11,667 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:12,668 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:12,668 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:13,673 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:07:13,673 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:13,674 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:14,679 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:14,680 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:15,686 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:15,687 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:16,688 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:16,688 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:17,693 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:17,694 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:18,700 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 00:07:18,700 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:18,701 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:19,275 INFO    wandb-upload_5:42139 [upload_job.py:push():131] Uploaded file /var/folders/r9/q4xqtwfd4dbfq85pgd9bpswr0000gn/T/tmpg32ogi62wandb/uatmwg8h-model-best.h5
+2024-03-15 00:07:19,492 INFO    Thread-11 (_thread_body):42139 [sender.py:transition_state():617] send defer: 11
+2024-03-15 00:07:19,493 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:19,493 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-15 00:07:19,493 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:19,493 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-15 00:07:19,494 INFO    SenderThread:42139 [file_pusher.py:join():181] waiting for file pusher
+2024-03-15 00:07:19,494 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 12
+2024-03-15 00:07:19,494 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:19,494 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-15 00:07:19,494 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:19,494 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-15 00:07:19,494 INFO    SenderThread:42139 [file_stream.py:finish():595] file stream finish called
+2024-03-15 00:07:19,706 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:19,820 INFO    SenderThread:42139 [file_stream.py:finish():599] file stream finish is done
+2024-03-15 00:07:19,820 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 13
+2024-03-15 00:07:19,820 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:19,820 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:19,821 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-15 00:07:19,821 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:19,821 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-15 00:07:19,823 INFO    SenderThread:42139 [sender.py:transition_state():617] send defer: 14
+2024-03-15 00:07:19,824 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 00:07:19,824 DEBUG   SenderThread:42139 [sender.py:send():382] send: final
+2024-03-15 00:07:19,824 INFO    HandlerThread:42139 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-15 00:07:19,824 DEBUG   SenderThread:42139 [sender.py:send():382] send: footer
+2024-03-15 00:07:19,824 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: defer
+2024-03-15 00:07:19,824 INFO    SenderThread:42139 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-15 00:07:19,825 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:19,825 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:19,826 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 00:07:19,827 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: server_info
+2024-03-15 00:07:19,827 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-15 00:07:19,828 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 00:07:19,829 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-15 00:07:19,829 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: server_info
+2024-03-15 00:07:19,831 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 00:07:19,834 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: job_info
+2024-03-15 00:07:20,128 DEBUG   SenderThread:42139 [sender.py:send_request():409] send_request: job_info
+2024-03-15 00:07:20,129 INFO    MainThread:42139 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-03-15 00:07:20,130 INFO    MainThread:42139 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-03-15 00:07:20,132 INFO    MainThread:42139 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-03-15 00:07:20,135 DEBUG   HandlerThread:42139 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-15 00:07:20,135 INFO    HandlerThread:42139 [handler.py:finish():869] shutting down handler
+2024-03-15 00:07:20,840 INFO    WriterThread:42139 [datastore.py:close():296] close: /Users/yashtembhurnikar/Programming/Pccoe Final Year/Parkinson's Detection/wandb/run-20240315_000328-cjsnj9w6/run-cjsnj9w6.wandb
+2024-03-15 00:07:21,134 INFO    SenderThread:42139 [sender.py:finish():1572] shutting down sender
+2024-03-15 00:07:21,134 INFO    SenderThread:42139 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-15 00:07:21,134 INFO    SenderThread:42139 [file_pusher.py:join():181] waiting for file pusher
